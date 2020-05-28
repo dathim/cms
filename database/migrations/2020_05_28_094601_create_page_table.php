@@ -15,7 +15,7 @@ class CreatePageTable extends Migration
     {
         Schema::create('page', function (Blueprint $table) {
             $table->id();
-            $table->timestamps();
+            
             $table->integer('parent');
             $table->string('name',500);
             $table->string('title',1000);

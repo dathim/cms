@@ -20,9 +20,9 @@ Route::post('cms/password/reset', 'Auth\ResetPasswordController@reset');
 //Cms routing
 Route::get('cms', 'CmsController@index')->name('cms');
 Route::get('cms/page', 'PageController@index')->name('page');
-Route::get('cms/design', 'CmsController@index')->name('design');
-Route::get('cms/data', 'CmsController@index')->name('data');
-Route::get('cms/files', 'CmsController@index')->name('files'); 
+Route::get('cms/design', 'DesignController@index')->name('design');
+Route::get('cms/data', 'DataController@index')->name('data');
+Route::get('cms/files', 'FilesController@index')->name('files'); 
 
  
 
