@@ -1,0 +1,161 @@
+
+.regform{
+	padding: 70px 0;
+	background-color: #f9f9f9;
+	input{
+		background-color: #f9f9f9;
+	}
+	content{
+		.specform__loginblock{
+			margin-bottom: 52px;
+			border:1px solid #ccc;
+			
+			.specform__header{
+				display: flex;
+				flex-wrap: wrap;
+				flex-direction: row;
+				justify-content: start;
+				padding:20px 0 17px 36px;
+				 
+				h3{
+					color:#000;
+				    font-size: 1.9em;
+				    font-weight: 500;
+				    cursor: pointer;
+				}
+
+				.specform__arrclose,  .specform__arropen{
+					margin-left: 15px;
+					width: 30px; 
+					height: 30px;
+					background-repeat: no-repeat;
+					background-size: 50%;
+					background-position: center;
+				}
+				
+				.specform__arrclose{
+					margin-top: 11px;
+					background-image: url('/gfx/icons/keyboard-arrow-right_117118.png');
+				}
+
+				.specform__arropen{
+					margin-top: 10px;
+					background-image: url('/gfx/icons/keyboard-arrow-right_117118.png');
+					transform: rotate(90deg);
+				}
+			}
+			a:hover{text-decoration: none;}
+	 
+
+			.specform__body{
+				display: flex;
+				flex-wrap: wrap;
+				flex-direction: row;
+				justify-content: space-between;
+				padding:17px 36px 27px 36px;
+
+				.specform__formitem{
+					width:100%;
+
+
+					input, textarea,select{
+						width:100%;
+						
+						margin:30px 0 3px 0;
+						border:none; 
+						border-bottom:1px solid #555;
+						font-size: 1.3em;
+					}
+					textarea{
+						height: 200px;
+					}
+					select{
+						background: #f9f9f9;
+					}
+
+					input:focus{
+						border:none; 
+						border-bottom:3px solid #555;
+						margin:30px 0 1px 0;
+						outline:none;
+					}
+
+					button {
+						outline:none;
+						border:none; 
+						padding:10px 20px;
+
+					}
+
+					.specform__formitem-addtext{
+						font-size:8pt;
+						margin-left:3px;
+					}
+				}
+				.specform__formfile input{
+					border-bottom:0px !important;
+
+				}
+
+				.specform__formitem-half{
+					width:48%;
+				}
+
+				.specform__formitem-checkbox{
+					display: flex;
+					flex-direction: row;
+
+					input{					
+						cursor: pointer;
+						left: 0;
+						width: 30px;
+						height: 26px;
+						border-radius: 13px;
+						background: #CDD1DA;
+						transition: .2s;
+					}
+
+					span{
+						padding: 34px 10px;
+					}
+
+
+				}
+
+				.specform__formitem-submit{
+					display: flex;
+					flex-wrap: wrap;
+					flex-direction: row;
+					justify-content: center; 
+
+					button{
+						text-transform: uppercase;
+						background-color: $accent-color;
+						color:#fff;
+						cursor: pointer;
+						border:2px solid $accent-color-dark;
+					}
+
+					button:hover{
+						text-transform: uppercase;
+						
+						background-color: $accent-color-dark;
+					}
+				} 
+				.specform__map{
+					#map{
+						width: 100%; 
+						height: 500px; 
+					}
+
+				}
+			}
+		}
+	}
+}
+
+@media (min-width: 0px) and (max-width: 768px) {
+	.specform__formitem-half{
+		width:100%!important;
+	}
+}

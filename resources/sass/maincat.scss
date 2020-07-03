@@ -1,0 +1,66 @@
+
+.maincat{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+	max-width:1500px;
+	margin:17px auto;
+	
+
+
+	.maincat__block{
+		margin: 10px 10px 60px 10px;
+		width:227px;
+		height:283px;
+
+		div{
+		    overflow: hidden;
+
+		    img {
+		    	
+		    }
+		}
+
+		a{
+			position:relative;
+			display:block;
+			color:#000;
+			font-size:.8em;	
+			text-transform:uppercase;	
+			text-align:center;	
+		}
+ 
+		span{
+			display: flex;
+			justify-content: space-evenly;
+			flex-direction: column;
+			line-height: 1.6em;
+		    position: absolute;
+    		top: 0;
+    		width: 174px;
+    		height:110px;			
+		    text-align: center;
+	      	padding: 6px;
+    		background-color: #eeeeee;
+			margin-top:-13px;
+    		margin-left: auto;
+			margin-right: auto;
+			left: 0;
+			right: 0;
+			text-align: center;
+		}
+	}
+
+
+
+	
+} //maincat
+
+
+
+.maincat:hover  .maincat__block:hover{
+	box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+}
+
+

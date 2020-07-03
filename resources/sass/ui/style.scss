@@ -1,0 +1,134 @@
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	font-family: 'Roboto', sans-serif;
+}
+
+$accent-color:  rgba(0, 70, 158, 1); 
+$accent-color-dark:  #063565; 
+
+
+h1{font-size:28pt; text-align:center; padding:30px 0 30px 0;}
+h2{font-size:24pt; text-align:center; padding:30px 0 30px 0;}
+h3{font-size:20pt;}
+h4{font-size:17pt;}
+h5{font-size:14pt;}
+h6{font-size:11pt;}
+p{font-size:13pt; margin-bottom:20px;  line-height: 22pt;} 
+a{color: $accent-color-dark}
+a:hover{color:$accent-color}
+b, strong{font-weight: bold;}
+i{ font-style: italic; }
+ul{list-style-type:decimal}
+table{  
+	width:100%;
+	margin:20px 0;
+	border-collapse: collapse;
+	border-spacing: 0;
+	tr{
+		background-color: #f2f2f2;
+		th{
+			border: 1px solid #ddd;
+			text-align: left;
+			padding: 8px;
+			font-weight: bold;
+			color:#fff;
+			background-color:$accent-color-dark;
+		}
+		td{
+			border: 1px solid #ddd;
+			text-align: left;
+			padding: 8px;
+		}
+	}
+	tr:nth-child(2n) td{
+		background-color:#fff!important;
+	} 
+}
+hr{
+	width:40%;
+	height:2px;
+	margin-top:40px;
+	margin-bottom:40px;
+	background-color:$accent-color;
+	border-top: 2px solid #0660d2;
+	border-bottom: 2px solid $accent-color-dark;
+	border-radius: 20px;
+}
+
+
+
+#app{
+	display:grid;
+	min-width:350px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5); 
+	min-height: 100vh;
+}
+
+content{
+	display:block;
+	margin:0 auto;
+	max-width:1200px; 
+}
+
+
+a.cover-button{
+	position:absolute;
+	top: 0;
+	left:0;
+	width:100%;
+	height: 70px;
+}
+
+.label{
+	padding: 70px 0;
+	padding-left: 10px;
+	padding-right: 10px;
+
+	.filtr{
+		padding:8px;
+		background-color:#acf;
+		line-height:30px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import "header.scss";
+@import "regform.scss";
+@import "promo.scss";
+@import "footer.scss";
+
+
+
+
+
+
+
+
