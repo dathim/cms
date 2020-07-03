@@ -1,8 +1,15 @@
 window.onload = function () {
+
+	Vue.component("modal", {
+	  	template: "#modal-template"
+	});
+
+
 	var app = new Vue({
 		el: '#app',
 		data: { 
-			isHiddenNavLi: false
+			isHiddenNavLi: false,
+			showModal: false
 		}
 	});
 
@@ -15,7 +22,7 @@ window.onload = function () {
 			document.querySelector(blockID).scrollIntoView({
 				behavior: 'smooth',
 				block: 'start'
-			})
+			}) 
 		})
 	}
 

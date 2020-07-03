@@ -18,6 +18,7 @@ const mix = require('laravel-mix');
 mix.js('resources/js/bootstrap.js', 'public/js');
 mix.js('node_modules/jquery/dist/jquery.js', 'public/js');
 mix.js('resources/js/ui/vueui.js', 'public/js');
+mix.js('resources/js/ui/vuelidate.js', 'public/js'); 
 
 mix.sass('resources/sass/app.scss', 'public/css');
 mix.sass('resources/sass/ui/style.scss', 'public/css');

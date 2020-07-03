@@ -466,6 +466,6 @@
 			</content>
 		</section>
 
-
+	
 
 @include('prof.footer')

@@ -233,15 +233,19 @@ header content {
 
 .logo {
   position: relative;
-  width: 200px;
-  padding: 14px 0 0 54px;
+  width: 300px;
+  padding: 12px 0 0 54px;
   margin-top: 5px;
-  font-size: 16pt;
+  font-size: 12pt;
   color: #FFF;
   background: url(http://scss.test/gfx/icons/gerb_arhangelskoy_oblasti_2.png);
   background-size: 42px;
   background-position: left top;
   background-repeat: no-repeat;
+}
+
+.logo span {
+  font-size: 8pt;
 }
 
 .main-navigate {
@@ -284,6 +288,8 @@ header content {
   color: #fff;
   text-transform: uppercase;
   text-decoration: none;
+  transition-timing-function: linear;
+  transition-duration: 1s;
 }
 
 .main-navigate .main-navigate__menu ul li a:hover {
@@ -320,6 +326,131 @@ header content {
   .main-navigate .main-navigate__menu {
     display: block !important;
   }
+}
+
+.modal-mask {
+  position: fixed;
+  z-index: 9998;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: table;
+  transition: opacity 0.3s ease;
+}
+
+.modal-wrapper {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.modal-container {
+  position: relative;
+  width: 300px;
+  margin: 0px auto;
+  padding: 20px 30px;
+  background-color: #fff;
+  border-radius: 2px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.33);
+  transition: all 0.3s ease;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.modal-header .modal-close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  margin: -17px -17px 0 0;
+  background-color: #00469e;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjYuMDAwMDAwMDAwMDAwMDA0IiBoZWlnaHQ9IjI2LjAwMDAwMDAwMDAwMDAwNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KCiA8Zz4KICA8dGl0bGU+YmFja2dyb3VuZDwvdGl0bGU+CiAgPHJlY3QgZmlsbD0ibm9uZSIgaWQ9ImNhbnZhc19iYWNrZ3JvdW5kIiBoZWlnaHQ9IjQwMiIgd2lkdGg9IjU4MiIgeT0iLTEiIHg9Ii0xIi8+CiA8L2c+CiA8Zz4KICA8dGl0bGU+TGF5ZXIgMTwvdGl0bGU+CiAgPHBhdGggaWQ9InN2Z18xIiBmaWxsPSIjZmZmZmZmIiBkPSJtMTQuMDIyNTM4LDEzbDEwLjcxOTcyLC0xMC43MTk3M2MwLjI5Mjk3LC0wLjI5Mjk3IDAuMjkyOTcsLTAuNzY3NTcgMCwtMS4wNjA1NHMtMC43Njc1NywtMC4yOTI5NyAtMS4wNjA1NCwwbC0xMC43MTk3MywxMC43MTk3MmwtMTAuNzE5NzMsLTEwLjcxOTcyYy0wLjI5Mjk3LC0wLjI5Mjk3IC0wLjc2NzU3LC0wLjI5Mjk3IC0xLjA2MDU0LDBzLTAuMjkyOTcsMC43Njc1NyAwLDEuMDYwNTRsMTAuNzE5NzIsMTAuNzE5NzNsLTEwLjcxOTcyLDEwLjcxOTczYy0wLjI5Mjk3LDAuMjkyOTcgLTAuMjkyOTcsMC43Njc1NyAwLDEuMDYwNTRjMC4xNDY0OCwwLjE0NjQ5IDAuMzM3ODksMC4yMTk3MyAwLjUzMDI3LDAuMjE5NzNzMC4zODM3OSwtMC4wNzMyNCAwLjUzMDI3LC0wLjIxOTczbDEwLjcxOTczLC0xMC43MTk3MmwxMC43MTk3MywxMC43MTk3MmMwLjE0NjQ4LDAuMTQ2NDkgMC4zMzc4OSwwLjIxOTczIDAuNTMwMjcsMC4yMTk3M3MwLjM4Mzc5LC0wLjA3MzI0IDAuNTMwMjcsLTAuMjE5NzNjMC4yOTI5NywtMC4yOTI5NyAwLjI5Mjk3LC0wLjc2NzU3IDAsLTEuMDYwNTRsLTEwLjcxOTcyLC0xMC43MTk3M3oiLz4KIDwvZz4KPC9zdmc+);
+  background-size: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.modal-body form .specform__formitem input,
+.modal-body form .specform__formitem textarea,
+.modal-body form .specform__formitem select {
+  width: 100%;
+  margin: 30px 0 3px 0;
+  border: none;
+  border-bottom: 1px solid #555;
+  font-size: 1.3em;
+}
+
+.modal-body form .specform__formitem textarea {
+  height: 200px;
+}
+
+.modal-body form .specform__formitem select {
+  background: #f9f9f9;
+}
+
+.modal-body form .specform__formitem input:focus {
+  border: none;
+  border-bottom: 3px solid #555;
+  margin: 30px 0 1px 0;
+  outline: none;
+}
+
+.modal-body form .specform__formitem button {
+  outline: none;
+  border: none;
+  padding: 10px 20px;
+}
+
+.modal-body form .specform__formitem .specform__formitem-addtext {
+  font-size: 8pt;
+  margin-left: 3px;
+}
+
+.modal-body form .specform__formitem-submit {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.modal-body form .specform__formitem-submit button {
+  text-transform: uppercase;
+  background-color: #00469e;
+  color: #fff;
+  cursor: pointer;
+  border: 2px solid #063565;
+}
+
+.modal-body form .specform__formitem-submit button:hover {
+  text-transform: uppercase;
+  background-color: #063565;
+}
+
+/*
+ * The following styles are auto-applied to elements with
+ * transition="modal" when their visibility is toggled
+ * by Vue.js.
+ *
+ * You can easily play with the modal transition by editing
+ * these styles.
+ */
+
+.modal-enter {
+  opacity: 0;
+}
+
+.modal-leave-active {
+  opacity: 0;
+}
+
+.modal-enter .modal-container,
+.modal-leave-active .modal-container {
+  transform: scale(1.1);
 }
 
 .regform {
@@ -527,34 +658,13 @@ header content {
   border-radius: 0.25rem;
   color: #000;
   background-color: #fff;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  transition-timing-function: linear;
+  transition-duration: 2s;
 }
 
 .promo .promo__gradient .promo__label .reg_button:hover {
-  -webkit-animation-duration: 2s;
-          animation-duration: 2s;
-  -webkit-animation-name: growElement;
-          animation-name: growElement;
-  box-shadow: 0 0 10px #FFF;
-}
-
-@-webkit-keyframes growElement {
-  0% {
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
-  }
-
-  100% {
-    box-shadow: 0 0 10px #FFF;
-  }
-}
-
-@keyframes growElement {
-  0% {
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
-  }
-
-  100% {
-    box-shadow: 0 0 10px #FFF;
-  }
+  box-shadow: 0 0 10px white;
 }
 
 .footer {

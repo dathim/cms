@@ -13,16 +13,19 @@ header{
 
 .logo{
 	position:relative;
-	width:200px;
-	padding:14px 0 0  54px;
+	width:300px;
+	padding:12px 0 0  54px;
 	margin-top: 5px;
-	font-size: 16pt;
+	font-size: 12pt;
 	color:#FFF;
 	background: url(http://scss.test/gfx/icons/gerb_arhangelskoy_oblasti_2.png); 
 	//background: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CgogPGc+CiAgPHRpdGxlPmJhY2tncm91bmQ8L3RpdGxlPgogIDxyZWN0IGZpbGw9Im5vbmUiIGlkPSJjYW52YXNfYmFja2dyb3VuZCIgaGVpZ2h0PSI0MDIiIHdpZHRoPSI1ODIiIHk9Ii0xIiB4PSItMSIvPgogPC9nPgogPGc+CiAgPHRpdGxlPkxheWVyIDE8L3RpdGxlPgogIDxwYXRoIGlkPSJzdmdfMSIgZmlsbD0iI2ZmZmZmZiIgZD0ibTYyLjg0OCwxNi44NTNsLTAuMDU3LDBjLTEuMDk0LDAuMDA3IC0xLjI2MywtMC45NDYgLTEuMjgyLC0xLjM4NmwwLC02LjkwOWMwLC0wLjczNiAtMC41OTksLTEuMzM0IC0xLjMzNCwtMS4zMzRsLTE5Ljc1MiwwYy00Ljk1NywwIC02LjgwNSwxLjgzNiAtNy4yNjQsMi40MTRsLTAuMTI2LDAuMTc0bC0wLjAwMSwwLjAwMmwtMC4zOTEsMC41MzZjLTAuMDAxLDAgLTAuMDAxLDAgLTAuMDAxLDBjLTAuNTI0LDAuNzIxIC0wLjk4MSwwLjQxMyAtMS4yMDEsMC4xNzhsLTAuNzQ4LC0wLjkzM2wtMC4zNjksLTAuNDQ1Yy0wLjYyMiwtMC42NTMgLTIuMjQyLC0xLjkyNyAtNS40NTIsLTEuOTI3bC0yMS4wNDMsMGMtMC43MzcsMCAtMS4zMzUsMC41OTggLTEuMzM1LDEuMzM0bDAsNi44MjJjMCwxLjE5MyAtMC42NDgsMS40MzQgLTEuMDQ2LDEuNDczbC0wLjI5NywwYy0wLjMyNCwwLjAxOSAtMS4wNzcsMC4yMDggLTEuMDc3LDEuNTk1bDAsMzIuNTA1YzAsMC43OTggMC42NDcsMS40NDQgMS40NDQsMS40NDRsMTkuMjA1LDBjNi4xMjcsMCA4Ljc5NywyLjMxMiA5LjU5OCwzLjE5N2wwLjQ1NywwLjU2NmwwLjAwMSwwYzAsMCAxLjIyNSwxLjM4NSAyLjUxNiwwbDAsMGwwLjI2OSwtMC4zMTVsMCwwLjAwM2wwLjAwMywtMC4wMDNsMC4zNDEsLTAuNGMwLjAxLC0wLjAxMiAwLjA5MywtMC4xMDQgMC4yMTEsLTAuMjI2YzEuMDI0LC0wLjk5NSAzLjU3OSwtMi44MjIgOC41NzUsLTIuODIybDE5Ljc5MiwwYzAuNzk4LDAgMS40NDMsLTAuNjQ2IDEuNDQzLC0xLjQ0NGwwLC0zMi44MmMwLjAwMSwtMS4xNzQgLTAuODUyLC0xLjI3MyAtMS4wNzksLTEuMjc5em0tNC4zMTUsMjljMCwwLjY0IC0wLjUzNSwxLjE1OSAtMS4yMDEsMS4xNTlsLTE2LjI4MywwYy01Ljc5NSwwIC03Ljg5OSwyLjYxNiAtNy44OTksMi42MTZsLTAuMjY3LDAuMzU4bC0wLjEyNSwwLjE3NWMtMC4wMDEsMCAtMC4wMDEsMCAtMC4wMDEsMGMtMC41NTMsMC43NSAtMS4zNjUsMC4wMDYgLTEuMzY5LDBsLTAuMzc1LC0wLjQ2OGMtMC4yNzgsLTAuMzMzIC0yLjQwNywtMi42ODIgLTcuNTU4LC0yLjY4MmwtMTYuNzksMGMtMC42NjMsMCAtMS4xOTgsLTAuNTIgLTEuMTk4LC0xLjE1OWwwLC0zNC42NGMwLC0wLjY0IDAuNTM2LC0xLjE1NyAxLjE5OCwtMS4xNTdsMTMuMDM0LDBjOS42OTYsMCAxMC42MTQsNS41MDcgMTAuNjc3LDcuMTA2bDAsMjQuMDkyYzAsMS43NTEgMC44MzQsMi4wNzggMS4zMDUsMi4xMjZsMC43MDEsMGMwLjQ3OSwtMC4wNDggMS4yNDIsLTAuMzMzIDEuMjQyLC0xLjY5N2wwLC0yNC44M2wtMC4wMDksMGMwLjA3NCwtMi4wMDMgMC44NTQsLTYuNzk3IDYuNjg2LC02Ljc5N2wxNy4wMzEsMGMwLjY2NiwwIDEuMjAxLDAuNTE3IDEuMjAxLDEuMTU3bDAsMzQuNjQxeiIvPgogPC9nPgo8L3N2Zz4=);
 	background-size: 42px;
 	background-position: left top;
 	background-repeat: no-repeat;
+	span{
+		font-size:8pt;
+	}
 }
 
 .main-navigate{
@@ -58,6 +61,8 @@ header{
 					color:#fff;
 					text-transform: uppercase;
 					text-decoration: none;
+					transition-timing-function: linear;
+					transition-duration: 1s;
 				}
 				a:hover{
 					color:rgba(64,191,255,0.90);
@@ -85,7 +90,7 @@ header{
 		}
 	}	
 }
-   
+	 
 
 
 @media (min-width: 768px) and (max-width: 1199.98px) {
@@ -108,4 +113,143 @@ header{
 			display: block !important;
 		}
 	}
+}
+
+
+
+
+//modal
+
+
+.modal-mask {
+	position: fixed;
+	z-index: 9998;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.7);
+	display: table;
+	transition: opacity 0.3s ease;
+}
+
+.modal-wrapper {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.modal-container {
+	position:relative;
+	width: 300px;
+	margin: 0px auto;
+	padding: 20px 30px;
+	background-color: #fff;
+	border-radius: 2px;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.33);
+	transition: all 0.3s ease;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.modal-header{
+	.modal-close{
+		position:absolute;
+		right:0;
+		top:0;
+		width:50px;
+		height:50px;
+		border-radius: 50px;
+		margin: -17px -17px 0 0;
+		background-color: $accent-color;
+		background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjYuMDAwMDAwMDAwMDAwMDA0IiBoZWlnaHQ9IjI2LjAwMDAwMDAwMDAwMDAwNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KCiA8Zz4KICA8dGl0bGU+YmFja2dyb3VuZDwvdGl0bGU+CiAgPHJlY3QgZmlsbD0ibm9uZSIgaWQ9ImNhbnZhc19iYWNrZ3JvdW5kIiBoZWlnaHQ9IjQwMiIgd2lkdGg9IjU4MiIgeT0iLTEiIHg9Ii0xIi8+CiA8L2c+CiA8Zz4KICA8dGl0bGU+TGF5ZXIgMTwvdGl0bGU+CiAgPHBhdGggaWQ9InN2Z18xIiBmaWxsPSIjZmZmZmZmIiBkPSJtMTQuMDIyNTM4LDEzbDEwLjcxOTcyLC0xMC43MTk3M2MwLjI5Mjk3LC0wLjI5Mjk3IDAuMjkyOTcsLTAuNzY3NTcgMCwtMS4wNjA1NHMtMC43Njc1NywtMC4yOTI5NyAtMS4wNjA1NCwwbC0xMC43MTk3MywxMC43MTk3MmwtMTAuNzE5NzMsLTEwLjcxOTcyYy0wLjI5Mjk3LC0wLjI5Mjk3IC0wLjc2NzU3LC0wLjI5Mjk3IC0xLjA2MDU0LDBzLTAuMjkyOTcsMC43Njc1NyAwLDEuMDYwNTRsMTAuNzE5NzIsMTAuNzE5NzNsLTEwLjcxOTcyLDEwLjcxOTczYy0wLjI5Mjk3LDAuMjkyOTcgLTAuMjkyOTcsMC43Njc1NyAwLDEuMDYwNTRjMC4xNDY0OCwwLjE0NjQ5IDAuMzM3ODksMC4yMTk3MyAwLjUzMDI3LDAuMjE5NzNzMC4zODM3OSwtMC4wNzMyNCAwLjUzMDI3LC0wLjIxOTczbDEwLjcxOTczLC0xMC43MTk3MmwxMC43MTk3MywxMC43MTk3MmMwLjE0NjQ4LDAuMTQ2NDkgMC4zMzc4OSwwLjIxOTczIDAuNTMwMjcsMC4yMTk3M3MwLjM4Mzc5LC0wLjA3MzI0IDAuNTMwMjcsLTAuMjE5NzNjMC4yOTI5NywtMC4yOTI5NyAwLjI5Mjk3LC0wLjc2NzU3IDAsLTEuMDYwNTRsLTEwLjcxOTcyLC0xMC43MTk3M3oiLz4KIDwvZz4KPC9zdmc+);
+		background-size:30px;
+		background-repeat: no-repeat;
+    	background-position: center;
+    	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    	cursor:pointer;
+	}
+}
+
+.modal-body {
+	form{
+		.specform__formitem{
+			input, textarea,select{
+				width:100%;
+				
+				margin:30px 0 3px 0;
+				border:none; 
+				border-bottom:1px solid #555;
+				font-size: 1.3em;
+			}
+			textarea{
+				height: 200px;
+			}
+			select{
+				background: #f9f9f9;
+			}
+
+			input:focus{
+				border:none; 
+				border-bottom:3px solid #555;
+				margin:30px 0 1px 0;
+				outline:none;
+			}
+
+			button {
+				outline:none;
+				border:none; 
+				padding:10px 20px;
+
+			}
+
+			.specform__formitem-addtext{
+				font-size:8pt;
+				margin-left:3px;
+			}
+		}
+		.specform__formitem-submit{
+			display: flex;
+			flex-wrap: wrap;
+			flex-direction: row;
+			justify-content: center; 
+			margin-top:20px;  
+			button{
+				text-transform: uppercase;
+				background-color: $accent-color;
+				color:#fff;
+				cursor: pointer;
+				border:2px solid $accent-color-dark;
+			}
+
+			button:hover{
+				text-transform: uppercase;
+				
+				background-color: $accent-color-dark;
+			}
+		} 
+	}
+}
+
+
+
+/*
+ * The following styles are auto-applied to elements with
+ * transition="modal" when their visibility is toggled
+ * by Vue.js.
+ *
+ * You can easily play with the modal transition by editing
+ * these styles.
+ */
+
+.modal-enter {
+	opacity: 0;
+}
+
+.modal-leave-active {
+	opacity: 0;
+}
+
+.modal-enter .modal-container,
+.modal-leave-active .modal-container {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
 }

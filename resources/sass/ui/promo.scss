@@ -38,14 +38,16 @@
 				margin: 30px auto;
 				border-radius: .25rem;
 				color:#000;
-				background-color:#fff;
-				
+				background-color: #fff;
+				box-shadow:0 0 10px rgba(255, 255, 255, 0.1);
+				transition-timing-function: linear;
+				transition-duration: 2s;
 				
 			}
 			.reg_button:hover{
-				animation-duration: 2s;
-				animation-name: growElement;
-				box-shadow:0 0 10px #FFF;
+	
+			
+				box-shadow:0 0 10px rgba(255, 255, 255, 1);
 			}
 		}
 	}
@@ -53,13 +55,3 @@
 }
 
 
-@keyframes growElement { 
-	0% {
-	box-shadow:0 0 10px rgba(255, 255, 255, 0.1);
-	}
-
-	100% {
-		box-shadow:0 0 10px #FFF;
-	}
-
-}

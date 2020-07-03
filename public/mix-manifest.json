@@ -4,6 +4,7 @@
     "/css/style.css": "/css/style.css",
     "/css/cms.css": "/css/cms.css",
     "/js/jquery.js": "/js/jquery.js",
+    "/js/vuelidate.js": "/js/vuelidate.js",
     "/js/vueui.js": "/js/vueui.js",
     "/css/bootstrap.css": "/css/bootstrap.css"
 }

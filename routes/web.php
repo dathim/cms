@@ -71,6 +71,7 @@ Route::view('/m3', 'pomorye.moder3');
 
 
 Route::view('prof', 'prof.main');
+Route::view('prof/l', 'prof.login');
 //Route::view('/5', 'welcome5');
 /*
 Route::any('/1', 'SiteController@index1')->name('site');
