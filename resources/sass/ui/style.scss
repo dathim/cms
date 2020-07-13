@@ -14,10 +14,10 @@ $accent-color-dark:  #063565;
 
 h1{font-size:28pt; text-align:center; padding:30px 0 30px 0;}
 h2{font-size:24pt; text-align:center; padding:30px 0 30px 0;}
-h3{font-size:20pt;}
-h4{font-size:17pt;}
-h5{font-size:14pt;}
-h6{font-size:11pt;}
+h3{font-size:20pt; padding:20px 0 20px 0;}
+h4{font-size:17pt; padding:20px 0 20px 0;}
+h5{font-size:14pt; padding:10px 0 10px 0;}
+h6{font-size:11pt; padding:10px 0 10px 0;}
 p{font-size:13pt; margin-bottom:20px;  line-height: 22pt;} 
 a{color: $accent-color-dark}
 a:hover{color:$accent-color}
@@ -69,10 +69,16 @@ hr{
 	min-height: 100vh;
 }
 
+
+
 content{
 	display:block;
 	margin:0 auto;
 	max-width:1200px; 
+}
+
+section:first-of-type{
+	margin-top:60px!important; 
 }
 
 
@@ -123,6 +129,7 @@ a.cover-button{
 @import "header.scss";
 @import "regform.scss";
 @import "promo.scss";
+@import "ui.scss";
 @import "footer.scss";
 
 

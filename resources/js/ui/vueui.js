@@ -1,7 +1,7 @@
 window.onload = function () {
 
 	Vue.component("modal", {
-	  	template: "#modal-template"
+		template: "#modal-template"
 	});
 
 
@@ -10,6 +10,17 @@ window.onload = function () {
 		data: { 
 			isHiddenNavLi: false,
 			showModal: false
+		},
+		methods: {
+			showsubmenu: function (event) {
+				// `this` внутри методов указывает на экземпляр Vue
+				//alert('Привет, ' + this.name + '!')
+				// `event` — нативное событие DOM
+				console.log(this);
+				if (event) {
+					alert(event.target.tagName)
+				}
+			}
 		}
 	});
 

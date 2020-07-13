@@ -85,11 +85,18 @@
 						<ul>
 							<li><a href="#">Главная</a></li>
 							<li><a href="#news" @click="to_forgot()">Новости</a></li>
-							<li><a href="#">Направления</a></li>
-							<li><a href="#">Комиссия</a></li>
+							<li><a href="#"  v-on:click="showsubmenu()">Направления!</a>
+								<ul style="display:none;">
+									<li><a href="">Настройки</a></li>
+									<li><a href="">Выход</a></li>
+								</ul>
+							</li>
+							
+							
 							<li><a href="#regform" class="scroll-to">Регистрация</a></li>
 							<li><a href="#"  @click="showModal = true">Вход</a></li>
-
+							<li><a href="#">Константинов К. К.</a></li>
+						
 						</ul>
 					</div>
 				</nav>

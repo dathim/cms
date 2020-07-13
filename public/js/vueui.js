@@ -108,6 +108,18 @@ window.onload = function () {
     data: {
       isHiddenNavLi: false,
       showModal: false
+    },
+    methods: {
+      showsubmenu: function showsubmenu(event) {
+        // `this` внутри методов указывает на экземпляр Vue
+        //alert('Привет, ' + this.name + '!')
+        // `event` — нативное событие DOM
+        console.log(this);
+
+        if (event) {
+          alert(event.target.tagName);
+        }
+      }
     }
   });
   var anchors = document.querySelectorAll('a.scroll-to');

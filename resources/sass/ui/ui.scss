@@ -1,0 +1,35 @@
+.ui{
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: [col] 300px [col] auto;
+	 grid-auto-rows: var(--grid-row-height);
+	grid-auto-flow: row dense;
+	background-color: #fff;
+	color: #444;
+	margin-top:30px;
+
+
+	& > div{
+		padding: 20px;
+	}
+
+
+	.ui__sidebar{
+		position: static;
+		height: auto;
+		width: auto;
+		grid-column: col;
+		background-color: #444;
+		color: #fff;
+		border-radius: 5px;
+	}
+
+
+	.ui__content{
+		grid-column: col 2; 
+		border:1px solid #eee;
+		h5 a {
+			margin-right: 10px; 
+		}
+	}
+}

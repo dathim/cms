@@ -47,12 +47,13 @@ header{
 	.main-navigate__menu{
 	
 		margin-top: 11px;
-		ul{
+		& >ul{
 			display: flex;
 			flex-direction: row;
 			justify-content:space-around;
-			li{
+			& > li{
 				padding:10px;
+				position: relative;
 				flex-grow:1;
 				text-align: center;
 				list-style-type: none;
@@ -62,12 +63,28 @@ header{
 					text-transform: uppercase;
 					text-decoration: none;
 					transition-timing-function: linear;
-					transition-duration: 1s;
+					transition-duration: 0.5s;
 				}
 				a:hover{
 					color:rgba(64,191,255,0.90);
 				}
 			}
+			ul{
+				position:absolute;
+				top: 50px;
+				left: 0;
+				list-style-type: none;
+				li {
+					padding:10px 20px;
+				}
+				li:hover{
+					background: $accent-color-dark;
+				}
+
+				background: $accent-color;
+				//display:none;
+			}
+
 		}
 	}
 }

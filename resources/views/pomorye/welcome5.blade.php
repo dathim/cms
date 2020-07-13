@@ -9,7 +9,7 @@
 		<span class="breadcrumbs__item"><a href="">Подкатегория</a></span> 
 	</div>
 
-	<div class="singlereport">
+	<div class="singlereport statistic">
 		<div class="singlereport__report">
 		   <div class="singlereport__subject mt-4">
 			<h3>Статистика </h3>
@@ -17,19 +17,19 @@
 			<h1  class="row justify-content-md-center">Общая стстистика</h1>
 			
 			<div class="row justify-content-md-center my-4">
-				<button type="button" class="btn btn-primary btn-lg p-3 mx-4">ВСЕГО СООБЩЕНИЙ <h4>25</h4></button>
-				<button type="button" class="btn btn-danger btn-lg p-3 mx-4">ПУБЛИЧНЫХ <h4>20</h4></button>
-				<button type="button" class="btn btn-secondary btn-lg p-3 mx-4">НЕ ПУБЛИЧНЫХ  <h4>5</h4></button>
+				<button type="button" class="btn btn-primary btn-lg p-3 mx-4">ВСЕГО СООБЩЕНИЙ <h4><h1>23</h1></h4></button>
+				<button type="button" class="btn btn-danger btn-lg p-3 mx-4">ПУБЛИЧНЫХ <h4><h1>23</h1></h4></button>
+				<button type="button" class="btn btn-secondary btn-lg p-3 mx-4">НЕ ПУБЛИЧНЫХ  <h4><h1>23</h1></h4></button>
 			</div>
 
 			<h1  class="row justify-content-md-center">Общая стстистика</h1>
 			
 			<div class="row justify-content-md-center  my-4">
-				<button type="button" class="btn btn-success btn-lg p-3 mx-4">СООБЩЕНИЕ РЕШЕНО<h4>13</h4></button>
-				<button type="button" class="btn btn-warning btn-lg p-3 mx-4">НА РАССМОТРЕНИИ <h4>5</h4></button>
-				<button type="button" class="btn btn-danger btn-lg p-3 mx-4">ОТКЛОНЕНО <h4>2</h4></button>
-				<button type="button" class="btn btn-info btn-lg p-3 mx-4">В РАБОТЕ <h4>4</h4></button>
-				<button type="button" class="btn btn-dark btn-lg p-3 mx-4">МОТЕВИРОВАНЫЙ ОТКАЗ <h4>1</h4></button>
+				<button type="button" class="btn btn-success btn-lg p-3 mx-4">СООБЩЕНИЕ РЕШЕНО<h4><h1>23</h1></h4></button>
+				<button type="button" class="btn btn-warning btn-lg p-3 mx-4">НА РАССМОТРЕНИИ <h4><h1>23</h1></h4></button>
+				<button type="button" class="btn btn-danger btn-lg p-3 mx-4">ОТКЛОНЕНО <h4><h1>23</h1></h4></button>
+				<button type="button" class="btn btn-info btn-lg p-3 mx-4">В РАБОТЕ <h4><h1>23</h1></h4></button>
+				<button type="button" class="btn btn-dark btn-lg p-3 mx-4">МОТЕВИРОВАНЫЙ ОТКАЗ <h4><h1>23</h1></h4></button>
 				
 			</div>
 
@@ -41,43 +41,43 @@
 				    <tr >
 				      <th scope="col">Раздел</th>
 				      <th scope="col">Всего </th>
-				      <th scope="col">В работве</th>
+				      <th scope="col">В работе</th>
 				      <th scope="col">Решено</th>
 				    </tr>
 				  </thead>
 				  <tbody>
-				    <tr class="table-success">
+				    <tr>
 				      <td>АВТОМОБИЛЬНЫЕ ДОРОГИ</td>
 				      <td>6</td>
 				      <td>4</td>
 				      <td>2</td>
 				    </tr>
-				    <tr class="table-danger">
+				    <tr>
 				     <td>БЕЗОПАСНОСТЬ В СЕТИ «ИНТЕРНЕТ»</td>
 				      <td>7</td>
 				      <td>3</td>
 				      <td>4</td>
 				    </tr>
-				    <tr class="table-warning">
+				    <tr>
 				       <td>ДВОРОВЫЕ И ОБЩЕСТВЕННЫЕ ТЕРРИТОРИИ</td>
 				      <td>5</td>
 				      <td>3</td>
 				      <td>2</td>
 				    </tr>
 				  </tbody>
-				  <tr class="table-success">
+				  <tr>
 				      <td>АВТОМОБИЛЬНЫЕ ДОРОГИ</td>
 				      <td>6</td>
 				      <td>4</td>
 				      <td>2</td>
 				    </tr>
-				    <tr class="table-danger">
+				    <tr>
 				     <td>БЕЗОПАСНОСТЬ В СЕТИ «ИНТЕРНЕТ»</td>
 				      <td>7</td>
 				      <td>3</td>
 				      <td>4</td>
 				    </tr>
-				    <tr class="table-warning">
+				    <tr>
 				       <td>ДВОРОВЫЕ И ОБЩЕСТВЕННЫЕ ТЕРРИТОРИИ</td>
 				      <td>5</td>
 				      <td>3</td>
